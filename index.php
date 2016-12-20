@@ -19,8 +19,8 @@
                     <label for="password">Password: </label>
                     <input type="text" class="form-control" name="password" id="password">
                     <br>
-                    <button class="btn btn-default btn-lg" name="login">Login</button>
-                    <button class="btn btn-default btn-lg" name="Register" style="margin-left: 10px;">Register</button>
+                    <button class="btn btn-default btn-lg" type="submit" name="login">Login</button>
+                    <button class="btn btn-default btn-lg" name="Register" href="Register.php" style="margin-left: 10px;">Register</button>
                 </form>
             </div>
         </div>
