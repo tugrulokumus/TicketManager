@@ -5,7 +5,6 @@
     <title>Ticket Manager</title>
 </head>
 
-
 <body>
     <div class="container-fluid">
         <div class="row" style="margin-left: 10px">
@@ -13,11 +12,15 @@
             <div class="col-sm-5">
                 <h1>Ticket Manager</h1>
                 <br>
-                <form method="post">
-                    <label for="search"></label>
-                    <input type="text" class="form-control" name="search" id="search">
+                <form method="post" action="LoginCheck.php">
+                    <label for="username">Username: </label>
+                    <input type="text" class="form-control" name="username" id="username">
                     <br>
-                    <button class="btn btn-default btn-lg"><i class="glyphicon glyphicon-search"> Search</i></button>
+                    <label for="password">Password: </label>
+                    <input type="text" class="form-control" name="password" id="password">
+                    <br>
+                    <button class="btn btn-default btn-lg" name="login">Login</button>
+                    <button class="btn btn-default btn-lg" name="Register" style="margin-left: 10px;">Register</button>
                 </form>
             </div>
         </div>
