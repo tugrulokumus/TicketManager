@@ -4,7 +4,6 @@
     <?php include "Head.php"; ?>
     <title>Ticket Manager</title>
 </head>
-
 <body>
     <div class="container-fluid">
         <div class="row" style="margin-left: 10px">
