@@ -36,6 +36,12 @@
                     <?php include "Data/Showrooms.php"?>
                 </select>
                 <br>
+                <label for="activity">Activity: </label>
+                <select class="form-control" style="width:30%;" name="activity" id="activity">
+                    <option value="0">Select activity</option>
+                    <?php include "Data/Activities.php"?>
+                </select>
+                <br>
                 <button class="btn btn-default btn-lg" type="submit" name="search">
                     <i class="glyphicon glyphicon-search"> Search</i>
                 </button>
