@@ -1,13 +1,12 @@
 <?php
-$servername = "localhost";
-$username = "root";
-$password = "*123456*";
 
-$conn = new mysqli($servername, $username, $password);
+include "library/medoo.php";
 
-if($conn->connect_error) {
-    die("Connection failed: ". $conn->connect_error);
-}
-
-echo "Connection successful";
-
+$database = new medoo([
+    'database_type' => 'mysql',
+    'database_name' => 'ticket_management',
+    'server' => 'localhost',
+    'username' => 'root',
+    'password' => '*uguristan1*',
+    'charset' => 'utf-8'
+]);

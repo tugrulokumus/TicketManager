@@ -17,11 +17,12 @@
                     <input type="text" class="form-control" name="username" id="username">
                     <br>
                     <label for="password">Password: </label>
-                    <input type="text" class="form-control" name="password" id="password">
+                    <input type="password" class="form-control" name="password" id="password">
                     <br>
                     <button class="btn btn-default btn-lg" type="submit" name="login">Login</button>
-                    <button class="btn btn-default btn-lg" name="Register" href="Register.php" style="margin-left: 10px;">Register</button>
-                </form>
+                    <label></label>
+                </form><br>
+                <button class="btn btn-default btn-lg" onclick="location.href='Register.php'">Register</button>
             </div>
         </div>
     </div>
